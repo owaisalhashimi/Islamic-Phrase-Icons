@@ -29,7 +29,7 @@ islamic_phrase_icons('path/to/sprite.min.svg');
 In your HTML, use ```<i>``` tags with ```[data-ip]``` attributes to insert appropriate phrases. 
 
 ```html
-Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhhammad <i class="ip saw"></i>.
+Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhammad <i class="ip saw"></i>.
 ```
 
 #### List of Icons 
