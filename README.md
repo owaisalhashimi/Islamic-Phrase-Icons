@@ -11,6 +11,9 @@ Easy-to-use inline icons for web page authoring.
 
 ## Usage
 
+
+### Setup
+
 - Put the file ```sprite.min.svg``` in the root of your web page (or any location).
 
 - Include ```islamic-phrase-icons.min.css``` and ```islamic-phrase-icons.min.js``` in your web page.
@@ -21,7 +24,19 @@ Easy-to-use inline icons for web page authoring.
 islamic_phrase_icons('path/to/sprite.min.svg');
 ```
 
-## Customization
+### Inserting Icons
+
+In your HTML, use ```<i>``` tags with ```[data-ip]``` attributes to insert appropriate phrases. 
+
+```html
+Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhhammad <i class="ip saw"></i>.
+```
+
+#### List of Icons 
+
+...to folow...
+
+### Customization
 
 - Phrases will automatically size to match font size, but can be changed by adjusting in your CSS by targeting an icon via its ```data-ip``` attribute (not recommended):
 ```css
