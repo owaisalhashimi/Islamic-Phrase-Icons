@@ -40,9 +40,7 @@ Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhammad <i cl
 
 Phrases will automatically size to match font size, but can be changed by adjusting in your CSS by targeting an icon via its ```data-ip``` attribute (not recommended):
 ```css
-[data-ip="saw"] {
-	width: 4em;
-}
+[data-ip="saw"] { width: 4em; }
 ```
 
 Icon color defaults to the color of the text, and can be customized by specifying the parent element's ```--ip-color``` CSS custom property:
