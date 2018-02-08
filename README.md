@@ -34,15 +34,27 @@ Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhammad <i cl
 
 #### List of Icons 
 
-...to folow...
+                      
+| ```data-ip``` Value | Inserts |
+|:-----------:|:------------:|
+| awj    |  عز وجل  |
+| sta    |  سبحانه وتعالى  |
+| tta    |  تبارك وتعالى  |
+| saw    |  صلى الله عليه وسلم  |
+| ahis   |  عليه السلام  |
+| ahims  |  عليهم السلام  |
+| rdhu   |  رضي الله عنه  |
+| rdhuma |  رضي الله عنهما  |
+| rdhum  |  رضي الله عنهم  |
+| rdha   |  رضي الله عنها  |
+| rdhuna |  رضي الله عنهن  |
+
 
 ### Customization
 
 Phrases will automatically size to match font size, but can be changed by adjusting in your CSS by targeting an icon via its ```data-ip``` attribute (not recommended):
 ```css
-[data-ip="saw"] {
-	width: 4em;
-}
+[data-ip="saw"] { width: 4em; }
 ```
 
 Icon color defaults to the color of the text, and can be customized by specifying the parent element's ```--ip-color``` CSS custom property:
