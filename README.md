@@ -57,6 +57,11 @@ Phrases will automatically size to match font size, but can be changed by adjust
 [data-ip="saw"] { width: 4em; }
 ```
 
+Vertical alignment of icons can be adjusted using ```transform: translateY()``` in your CSS.
+```css
+[data-ip] { transform: translateY(0); }
+```
+
 Icon color defaults to the color of the text, and can be customized by specifying the parent element's ```--ip-color``` CSS custom property:
 
 ```css
