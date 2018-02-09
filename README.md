@@ -48,6 +48,7 @@ Allah <i class="ip awj"></i> revealed the Quran to his Messenger, Muhammad <i cl
 | rdhum  |  رضي الله عنهم  |
 | rdha   |  رضي الله عنها  |
 | rdhuna |  رضي الله عنهن  |
+| rhmhu |  رحمه الله  |
 
 
 ### Customization

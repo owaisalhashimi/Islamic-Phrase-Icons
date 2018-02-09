@@ -6,6 +6,7 @@
 }
 [data-ip="awj"] {
 	width: 2em;
+	transform: translateY(20%);
 }
 [data-ip="sta"] {
 	width: 4em;
@@ -36,6 +37,10 @@
 }
 [data-ip="rdhuna"] {
 	width: 3em;
+}
+[data-ip="rhmhu"] {
+	width: 3em;
+	transform: translateY(20%);
 }
 
 [data-ip] svg {
